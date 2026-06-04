@@ -15,9 +15,9 @@
     position: absolute;
     margin: 10px;
     padding: 5px;
-    bottom: 70%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, 0%);
     color: var(--color-letra);
     font-family:var(--tipo-letra);
 }
