@@ -20,6 +20,8 @@
     transform: translate(-50%, 0%);
     color: var(--color-letra);
     font-family:var(--tipo-letra);
+    white-space: nowrap;
+    text-align: center;
 }
 
 .foto{
