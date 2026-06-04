@@ -14,4 +14,6 @@
     background-image: url('../img/fotoP.png');
     background-size: cover;
     background-position: center;
+    width: 50%;
+    height: 70%;
 }
