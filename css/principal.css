@@ -3,9 +3,19 @@
     margin: 0%;
 }
 
+:root{
+    --color-letra:#fff;
+
+
+}
+
 .encabezado{
     font-size: medium;
     font-weight: 600;
+    bottom: 40px;
+    left: 10px;
+    color: var(--color-letra);
+
 }
 
 .foto{
