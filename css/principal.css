@@ -12,9 +12,10 @@
 .encabezado{
     font-size: medium;
     font-weight: 600;
-    position: relative;
-    bottom: 60%;
-    left: 15%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: var(--color-letra);
     font-family:var(--tipo-letra);
 }
