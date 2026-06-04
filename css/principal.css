@@ -7,3 +7,11 @@
     font-size: medium;
     font-weight: 600;
 }
+
+.foto{
+
+    
+    background-image: url('../img/.fotoP.png');
+    background-size: cover;
+    background-position: center;
+}
