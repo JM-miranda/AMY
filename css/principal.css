@@ -5,7 +5,7 @@
 
 :root{
     --color-letra:#fff;
-
+    --tipo-letra:Roboto Slab;
 
 }
 
@@ -13,10 +13,10 @@
     font-size: medium;
     font-weight: 600;
     position: relative;
-    bottom: 50%;
-    left: 10%;
+    bottom: 60%;
+    left: 15%;
     color: var(--color-letra);
-
+    font-family:var(--tipo-letra);
 }
 
 .foto{
