@@ -12,8 +12,8 @@
 .encabezado{
     font-size: medium;
     font-weight: 600;
-    bottom: 40px;
-    left: 10px;
+    bottom: 50%;
+    left: 10%;
     color: var(--color-letra);
 
 }
