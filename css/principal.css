@@ -50,3 +50,8 @@ body {
     top: 10px;
     color: var(--color-letra);
 }
+
+
+.animar {
+    animation: subir 1.5s ease-out forwards;
+}
