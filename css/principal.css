@@ -51,7 +51,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 200px;
+    margin: 0 auto;
 }
+
+#ramo-sorpresa {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
 .flores {
     position: relative;
     width: 180px;
