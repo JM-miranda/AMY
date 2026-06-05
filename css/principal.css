@@ -47,6 +47,20 @@ body {
 .animar {
     animation: subir 1.5s ease-out forwards;
 }
+
+.boton-sorpresa {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffb7c5;
+    color: white;
+    cursor: pointer;
+}
+
+
 .ramo {
     display: flex;
     flex-direction: column;
