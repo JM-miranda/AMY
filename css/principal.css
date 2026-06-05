@@ -6,6 +6,7 @@
 :root{
     --color-letra:#fff;
     --tipo-letra:Roboto Slab;
+    --texto-carta:Embed code;
 
 }
 
@@ -36,6 +37,8 @@
 }
 
 .primerTex{
-    font-family: var(--tipo-letra);
+    font-family: var(--texto-carta);
     text-align: center;
+    font-size: 20px;
+    font-weight: 500;
 }
