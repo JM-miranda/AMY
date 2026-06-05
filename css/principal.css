@@ -1,21 +1,18 @@
+
 *{
     padding: 0%;
     margin: 0%;
 }
-
 body {
-  background-color: #6E878E;
-  margin: 0;
-  padding: 0;
+    background-color: #6E878E;
+    margin: 0;
+    padding: 0;
 }
-
 :root{
     --color-letra:#fff;
     --tipo-letra:Roboto Slab;
     --texto-carta:Embed code;
-
 }
-
 .encabezado{
     font-size: 20px;
     font-weight: 700;
@@ -30,10 +27,7 @@ body {
     white-space: nowrap;
     text-align: center;
 }
-
 .foto{
-
-    
     background-image: url('../img/fotoP.png');
     background-size: cover;
     background-position: center;
@@ -41,53 +35,38 @@ body {
     width: 400px;
     height: 400px;
 }
-
 .primerTex{
     font-family: var(--texto-carta);
     text-align: center;
     font-size: 18px;
     font-weight: 200;
     margin-top: 20px;
-    
+    padding: 0 20px;
     color: var(--color-letra);
 }
-
-
 .animar {
     animation: subir 1.5s ease-out forwards;
 }
-
-
-
-
-
 .ramo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: subir 1.5s ease-out forwards;
 }
-
 .flores {
     position: relative;
     width: 150px;
     height: 120px;
 }
-
 .flor {
     position: absolute;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background-color: #ffb7c5;
 }
-
 .f1 { top: 0; left: 50px; }
 .f2 { top: 20px; left: 10px; }
 .f3 { top: 20px; left: 90px; }
-.f4 { top: 60px; left: 20px; background-color: #d4a0ff; }
-.f5 { top: 60px; left: 80px; background-color: #ffcba4; }
-
+.f4 { top: 60px; left: 20px; }
+.f5 { top: 60px; left: 80px; }
 .envoltura {
     width: 0;
     height: 0;
@@ -95,14 +74,11 @@ body {
     border-right: 60px solid transparent;
     border-bottom: 100px solid #f8c8d4;
 }
-
 .tallo {
     width: 8px;
     height: 60px;
     background-color: #6db56d;
 }
-
-
 .petalo {
     position: absolute;
     width: 20px;
@@ -113,7 +89,6 @@ body {
     left: 50%;
     transform-origin: 0 0;
 }
-
 .centro {
     position: absolute;
     width: 16px;
@@ -125,7 +100,6 @@ body {
     transform: translate(-50%, -50%);
     z-index: 1;
 }
-
 @keyframes subir {
     from {
         transform: translateY(100vh);
