@@ -3,6 +3,10 @@
     margin: 0%;
 }
 
+.body{
+    background-color: #6E878E;
+}
+
 :root{
     --color-letra:#fff;
     --tipo-letra:Roboto Slab;
@@ -42,4 +46,5 @@
     font-size: 18px;
     font-weight: 200;
     top: 10px;
+    color: var(--color-letra);
 }
