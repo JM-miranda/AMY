@@ -39,6 +39,6 @@
 .primerTex{
     font-family: var(--texto-carta);
     text-align: center;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 200;
 }
