@@ -37,4 +37,5 @@
 
 .primerTex{
     font-family: var(--tipo-letra);
+    text-align: center;
 }
