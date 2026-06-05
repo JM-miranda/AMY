@@ -54,19 +54,19 @@ body {
 }
 .flores {
     position: relative;
-    width: 150px;
-    height: 120px;
+    width: 180px;
+    height: 200px;
 }
 .flor {
     position: absolute;
     width: 50px;
     height: 50px;
 }
-.f1 { top: 0; left: 50px; }
-.f2 { top: 20px; left: 10px; }
-.f3 { top: 20px; left: 90px; }
-.f4 { top: 60px; left: 20px; }
-.f5 { top: 60px; left: 80px; }
+.f1 { top: 0; left: 65px; }
+.f2 { top: 30px; left: 10px; }
+.f3 { top: 30px; left: 120px; }
+.f4 { top: 90px; left: 30px; }
+.f5 { top: 90px; left: 100px; }
 .envoltura {
     width: 0;
     height: 0;
